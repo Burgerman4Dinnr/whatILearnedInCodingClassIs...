@@ -1,0 +1,42 @@
+* {
+    background-color: black;
+}
+
+nav {
+    background-color: red;
+}
+
+li {
+    display: inline-block;
+    margin: 0 auto
+}
+.centerImg {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+.nav-list {
+    text-align: center;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-list a {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+img {
+    
+}

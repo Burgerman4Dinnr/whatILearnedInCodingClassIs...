@@ -1,0 +1,149 @@
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-bubbles {
+    width: 1.125em;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #26292e;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+  }
+
+  h1{
+    margin: 0;
+    font-family: 'Butterfly Kids', cursive;
+    color: white;
+  }
+
+  .top-icons ul {
+    margin: 0;
+    float: right;
+  }
+
+  .title {
+    float: left;
+  }
+
+  h2 {
+    margin: 0;
+  }
+.welcome {
+    background-color: #e7718b;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    font-family: 'Butterfly Kids', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #26292e;
+}
+.top-icons {
+    margin: 0;
+    padding: 0;
+}
+
+.top-icons li {
+  text-decoration: none;
+  font-style: none;
+  padding: 10px;
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.leblop {
+  float: right;
+}
+
+.footer-icons li {
+  text-decoration: none;
+  font-style: none;
+  display: inline-block;
+  padding: 10px;
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 50%;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.divided {
+  display: inline-block;
+  font-family: 'Butterfly Kids', cursive;
+  font-family: 'Roboto', sans-serif
+}
+
+.middle {
+  background-color: #f4f4f6;
+}
+
+.btn1, .btn2 {
+  background-color: #26292e;
+  border: solid 10px #26292e;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+.Copyright {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.last-section1 {
+  float: left;
+  width: 70%;
+}
+
+.last-section2 {
+  float: right;
+  width: 30%;
+}
+
+.last-icons {
+  width: 500px;
+}
+
+
+.icon-search1, .icon-search2, .icon-search3, .icon-search4 {
+  margin: 40px;
+  padding: 40px;
+  border: solid 10px black;
+  background-color: gray;
+}
+
+.m1, .m2, .m3 {
+  width: calc(100% / 3);
+  float: left;
+}
+

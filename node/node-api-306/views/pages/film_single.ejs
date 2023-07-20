@@ -1,0 +1,49 @@
+<%- include('../partials/header') %>
+
+<main class="main main-single-film">
+    <div class="container">
+        <h2 class="header-h2"><%= name %></h2>
+        
+        <section class="section section-single-film">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-around">
+                    <p class="prev">
+                        <% if(data.film_id > 1) { %>
+                            <a href="/film/<%= data.film_id - 1 %>"></a>
+                        <%} %>
+                    </p>
+                    <p class="next">
+                        <% if(data.film_id > 1) { %>
+                            <a href="/film/<%= data.film_id + 1 %>">Next</a>
+                        <%} %>
+                    </p>
+                </div>
+            </div>
+            <img src="https://via.placeholder.com/350x350" alt="placeholder image" class="img-fluid">
+        </section>
+    </div>
+    <div class="col-md-6">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <%= data.description %>
+            </li>
+            <li class="list-group-item">
+                <%= data.release_year %>
+            </li>
+            <li class="list-group-item">
+                <%= data.length %> minutes
+            </li>
+            <li class="list-group-item">
+                <%= data.rating %>
+            </li>
+            <li class="list-group-item">
+                <%= data.special_features %>
+            </li>
+            <li class="list-group-item">
+                <%= data.rental_rate %>
+            </li>
+        </ul>
+    </div>
+</main>
+
+<%- include('../partials/footer') %>

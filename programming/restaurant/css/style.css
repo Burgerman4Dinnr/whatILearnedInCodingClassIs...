@@ -1,0 +1,62 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin: 10px;
+  }
+
+.mainHeader {
+    background-color: red;
+}
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: white;
+}
+
+.bottom-nav-item {
+    margin: 14px;
+}
+
+.hero {
+    width: 100%;
+    background-image: url(../media/pancake.jpg);
+    background-size: cover;
+}
+
+.middle-images {
+    background-color: lightgray;
+}
+
+.clientLogos {
+    background-color: darkgray;
+}
+
+.upperBottomFooter {
+    background-color: black;
+    color: gray;
+}
+
+.topSocial {
+    background-color: darkred;
+}
+
+.bottomBottomFooter {
+    background-color: black;
+    color: white;
+}
+
+.failure {
+    aspect-ratio: 16/9;
+}
+
+.blahBlahBlah {
+    background-color: beige;
+}
+
+.icon {
+    color: white;
+}

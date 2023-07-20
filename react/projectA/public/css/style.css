@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.header {
+    background-color: orange;
+    padding: 10px;
+    margin-bottom: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.figure {
+    border: 5px solid orange;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.figure-caption {
+    font-weight: 600;
+    color: black;
+}
+
+.footer {
+    background-color: orange;
+    font-weight: 600;
+    padding: 1px;
+    color: black;
+}
+

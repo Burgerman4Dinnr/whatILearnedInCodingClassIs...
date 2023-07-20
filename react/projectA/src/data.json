@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "img": "rainbow6.jpg",
+        "dev": "Ubisoft",
+        "title": "Rainbow Six Siege",
+        "yearReleased": 2015
+    },
+    {
+        "id": 2,
+        "img":"gtao.jpg",
+        "dev": "Rockstar Games",
+        "title": "Grand Theft Auto Online",
+        "yearReleased": 2013
+    },
+    {
+        "id": 3,
+        "img": "codmw.jpg",
+        "dev": "Activision",
+        "title": "Call of Duty: Modern Warfare(2019)",
+        "yearReleased": 2019
+    }
+]

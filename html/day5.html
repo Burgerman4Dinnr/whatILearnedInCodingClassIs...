@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Pizzeria</title>
+</head>
+<body>
+
+    <h1 class="logo"></h1>
+
+    <header class="header">
+        <h1 class="logo">David's Pizzeria</h1>
+        <p class="slogan">My name is David</p>
+        <form action="#">
+            <input type="username" value="" placeholder="username" id="username">
+            <input type="password" value="" placeholder="password" id="password"> 
+            <input type="submit" value="Sign In" id="submit">
+        </form>
+    </header>
+
+    <main class="main">
+        <section class="section promo-sectio0n">
+            <img src="Media/Pizza Logo.png" width="450" height="450" alt="placeholder img" class="img-fluid promo-img">
+            <p></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yunwTSfbAyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="order-header">Order Here!!!</h2>
+            <form action="#">
+                <h3>Delivery or Carryout?</h3>
+                <label for="delivery">
+                    <input type="radio" name="delivery" value="Delivery">Delivery
+                    <input type="radio" name="delivery" value="Carryout">Carryout
+                </label>
+                <h3>Type</h3>
+                <select name="selection" id="selection">
+                    <option value="">Choose Pizza</option>
+                    <option value="Hawaiian">Hawaiian</option>
+                    <option value="Supreme">Supreme</option>
+                    <option value="chitlin">Chitlin</option>
+                    <option value="meatlovers">meatlovers</option>
+                    <option value="build">Build Your Own</option>
+                </select>
+            </form>
+        </section>
+
+        <h3>Size</h3>
+        <label for="size">
+            <input type="radio" name="size" value="Small">Small
+            <input type="radio" name="size" value="Big">Big
+            <input type="radio" name="size" value="Bigger">Bigger
+            <input type="radio" name="size" value="Biggest">Biggest
+            <input type="radio" name="size" value="Biggerest">Biggerest
+        </label>
+
+        <h3>Crust</h3>
+
+        <label for="crust">
+            <input type="radio" name="crust" value="Hand Tossed">Hand Tossed
+            <input type="radio" name="crust" value="Thin Crust">Thin Crust
+            <input type="radio" name="crust" value="Poland Style">Poland Style
+            <input type="radio" name="crust" value="Floor Made">Floor Made
+            <input type="radio" name="crust" value="Naranja">Naranja
+        </label>
+
+        <h3>Toppings</h3>
+        <label for="toppings">
+            <input type="checkbox" name="toppings" value="Pineapples">Pineapples
+            <input type="checkbox" name="toppings" value="Banana">Banana
+            <input type="checkbox" name="toppings" value="Seaweed">Seaweed
+            <input type="checkbox" name="toppings" value="Cinnamon">Cinnamon
+            <input type="checkbox" name="toppings" value="Carrot Shavings">Carrot Shavings
+            <input type="checkbox" name="toppings" value="chocolate">Chocolate
+            <input type="checkbox" name="toppings" value="Tofu">Tofu
+            <input type="checkbox" name="toppings" value="Horse radish">Horse Radish
+            <input type="checkbox" name="toppings" value="Vinegar">Vinegar
+            <input type="checkbox" name="toppings" value="Rice">Rice
+            <input type="checkbox" name="toppings" value="Cooking Oil">Cooking Oil
+        </label>
+        <textarea name="specialInstructions" id="specialInstructions" cols="30" rows="10" placeholder="Special Instructions"></textarea>
+        <input type="tel">
+    </main>
+    <footer class="footer">
+        <p>Site by Joe Mama&copy;2022</p>
+    </footer>
+</body>
+</html>

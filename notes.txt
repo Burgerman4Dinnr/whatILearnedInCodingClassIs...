@@ -1,0 +1,168 @@
+CSS = Cascading Style Sheets
+
+Syntax:
+
+selector {
+    property: value;
+}
+
+selectors => 
+    tagname <h1>,
+    class .classname, 
+    id #id, 
+    universal *
+
+    colors
+
+        container => background-color/background
+        text => color
+
+        Three ways to write CSS:
+
+        InLine: no-no
+        Internal => bad idea
+        External => Great Idea
+
+        Ways to access a color:
+            name (red,green,blue,etc [always lowercase])
+            hex (#fdfdfd)
+                #000000 => Black
+                #ffffff => White
+
+                Grayscale:
+                #111111
+                #222222
+                all the way to
+                #eeeeee
+
+                #ff0000 => Red 
+                #00ff00 => Green
+                #0000ff => Blue
+
+                #f00 => Red 
+                #0f0 => Green 
+                #00f => Blue 
+
+                rgb
+
+                    rgb(red, green, blue)
+                    values => 0 - 255
+                    rgb(255, 0, 0) => red
+                    rgb(0, 255, 0) => green
+                    rgb(0, 0, 255) => blue
+                    rgb(0, 0, 0) => black
+                    rgb(255, 255, 255) = White
+                
+                rgba
+
+                hsl
+    Text: 
+
+        fonts
+
+            font-family
+                serif (Has edges)
+                sans-serif (Has no edges)
+                monospace (Each character's width is equal length)
+
+            font-size
+                pixels (px)
+                em
+                rem
+            font-weight
+                100 - 900
+                100(Thin)
+                900(Thicc)
+                400(Regular)
+            font-Style
+                italic
+                bold
+        Text
+            text-align
+                left
+                center
+                right
+                justify
+            text-decoration
+                none
+                underline
+                overline
+                dashed
+                dotted
+                wavy
+                line-through
+            text-transform
+                lowercase
+                uppercase
+                capitalize
+            text-shadow
+                offset-x
+                offset-y
+                blur radius
+                color
+        
+        lists
+            ul / ol
+                list-style-type
+                none (removes bullets and numbers)
+                circle (circles that are transparent in the middle)
+                disc (circle that is filled in)
+                square
+                decimal
+        li or list item
+            display property
+                InLine
+                block
+                inline-block
+    Layout
+
+        padding (pushes inside the box)
+        padding: top, bottom, left/right; 4 different padding
+        paddings: top/bottom right/left; 2 different padding
+        padding: top, bottom, left/right; 3 different padding
+        padding: top, right, bottom, left
+        padding-top: top padding
+        padding-right: right padding
+        padding-bottom: left padding
+        padding-bottom: bottom padding
+
+        margin (pushes outside the box)
+        margin: top, bottom, left/right; 4 different margin
+        margin: top/bottom right/left; 2 different margin
+        margin: top, bottom, left/right; 3 different margin
+        margin: top, right, bottom, left
+        margin-top: top margin
+        margin-right: right margin
+        margin-bottom: left margin
+        margin-bottom: bottom margin
+
+        border
+            border (thickness, color,type)
+                thickness is in px or inches or em. Usually you use pixels
+                color: any color value name/hex/rgb/hsi
+            border-top: gives border to top
+            border-right: gives border to right
+            border-bottom: gives border to bottom
+            border-left: gives border to left
+
+        border-radius
+            border-radius: 8px; 5%; makes a round
+    
+    FLOAT - Is a CSS property that allows you take an element out of the normal float document
+        float-left
+        float-right
+        float-none(default)
+
+        Positions:
+            absolute
+            relative
+            fixed 
+            sticky
+                
+                top
+                bottom
+                left
+                right
+                
+
+

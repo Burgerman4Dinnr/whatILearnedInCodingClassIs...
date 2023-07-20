@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5;
+}
+
+.header {
+    padding-block: 20px;
+    color: #e5e5e5;
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0, #8e2de2);
+}
+
+.troll-face {
+    width: 31.31px;
+}
+
+.header-h1, .header-text {
+    margin: 0;
+}
+
+.header-h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.header-text {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.main {
+    padding-block: 50px;
+}
+
+.meme-btn {
+    margin-top: 15px;
+    color: #e5e5e5;
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0, #8e2de2);
+}
+
+.meme-div {
+    padding-block: 30px;
+}
+
+.meme-image {
+    width: 100%;
+    
+}

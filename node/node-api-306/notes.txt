@@ -1,0 +1,26 @@
+root directory
+npm init -y
+touch .gitignore
+nano .gitignore
+    node_modules/
+    *-lock.json
+    [ctrl-o, enter, ctrl-x]
+npm i express ejs node-fetch cors helmet mysql2
+touch server.js
+clean up package.json
+
+BACK END
+server.js
+app/routes/router.js
+app/config/dbconfig.js
+app/doas/common/daoCommon.js
+
+app/daos/api/filmDao.js
+app/daos/dao.js
+app/routes/api/filmRoutes.js
+
+FRONT END
+views/pages/home.ejs
+views/partials/header.ejs
+views/partials/footer.ejs
+views.pages/404.ejs

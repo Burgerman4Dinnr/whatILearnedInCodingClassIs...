@@ -1,0 +1,68 @@
+.container {
+    width: 700px;
+    height: 700px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    align-content: space-around;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 200px;
+    border-radius: 25%;
+    border: 3px solid white
+}
+
+.child1 {
+    color: red;
+    background-color: blue;
+}
+
+.child2 {
+    color: blue;
+    background-color: red;
+}
+
+.child3 {
+    color: green;
+}
+
+.child4 {
+    color: black;
+    background-color: teal;
+}
+
+.child5 {
+    color: black;
+    background-color: white;
+}
+
+.child6 {
+    background-color:navy;
+}
+
+.child7 {
+    color: gold;
+    background-color: aquamarine;
+}
+
+.child8 {
+    color: brown;
+    background-color: gold;
+}
+
+.child9 {
+    color: crimson;
+    background-color: seagreen;
+}
+
+

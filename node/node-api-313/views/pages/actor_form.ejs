@@ -1,0 +1,13 @@
+<%- include('../partials/header'); %>
+
+<main class="main-main-dform">
+    <div class="container">
+        <form action="/api/actor/create" method="POST">
+            <input type="text" name="fName" id="fName" placeholder="first name" value="" class="form-control" required>
+            <input type="text" name="lName" id="lName" placeholder="last name" value="" class="form-control" required>
+            <button class="btn btn-primary" type="submit">add actor</button>
+        </form>
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>

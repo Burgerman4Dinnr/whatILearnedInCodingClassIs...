@@ -1,0 +1,18 @@
+*{box-sizing: border-box;}
+
+.header {
+    padding: 20px 0;
+    color: #f7f7f7;
+    background-color: dodgerblue;
+    border-bottom: 2px solid red;
+}
+
+section {
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+}

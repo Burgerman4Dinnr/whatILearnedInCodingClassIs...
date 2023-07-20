@@ -1,0 +1,42 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-bubbles {
+    width: 1.125em;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: #26292e;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+}
+.welcome {
+    background-color: pink;
+}
+
+.divided {
+  display: flex;
+}
+
+.last-section {
+  display: flex;
+}
+
+.last-section2 {
+  width: 30%;
+}

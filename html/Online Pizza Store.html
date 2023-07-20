@@ -1,0 +1,126 @@
+<!-- Requirements:
+
+h1 => name of the pizza store
+h2
+lists => unordered, ordered
+link
+images
+video
+forms
+size
+toppings (at least 10 toppings)
+crust
+delivery/carryout
+sauce
+textarea
+inputs => username password
+address/phone number -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Pizzeria</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">David's Pizzeria</h1>
+    <img src="Media/Pizza Logo.png" alt="David" width="500" height="500"> 
+
+    <p><!-- poor substitution for the "Enter" key --></p>
+
+    <p style="text-align: center;"> <a href="#Order">Cut the stupid stuff and order your pizza (Click Here)</a> </p>
+    <h2>About:</h2>
+    <p>We make pizza and my name is David. We beat every other local pizza shop in the Jackson area. Don't believe me? Check out the ratings from this unofficial source you've never heard of before:
+    
+
+    <ol>
+        <li>David's Pizzeria</li>
+        <li>Sal & Mookie's</li>
+        <li>The Pizza Shack</li>
+        <li>That one place at the renaissance </li>
+        <li>The Lost Pizza Co.</li>
+        <li>literally any other pizza place you can think of</li>
+    </ol>
+<p>if you think there's a place that sells better pizza than us, then let us know <a href="https://www.youtube.com/watch?v=-wt3BMQXcc4" target="_blank">here</a></p>
+
+At David's, we appreciate you, your family, and even your babies, for being at our restaurant. For we care about your:
+
+<ul>
+    <li>Money</li>
+    <li>ratings</li>
+    <li>Yelp ratings</li>
+    <li>and last but not least, the quality of service ;)</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yunwTSfbAyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Order your pizza</h2>
+<label for="Top Portion of Order"><input type="text" placeholder="username" value="" required>
+    <input type="text" placeholder="password" value="">
+    <input type="text" placeholder="address" value="">
+    <input type="text" placeholder="phone number" value="">
+    <input type="text" placeholder="Social Security Number" value="">
+    <p></p>
+    <input type="radio" name="type" value="Delivery"> Delivery
+    <input type="radio" name="type" value="Carryout"> Carryout
+
+</label>
+
+<h3>Pizza Editor</h3>
+
+<h4>Size:</h4>
+  <form action="#">
+        <select name="pizzaEditor" id="pizzaEditor">
+            <option value="">Select Size</option>
+            <option value="Small">Small</option>
+            <option value="Big">Big</option>
+            <option value="Bigger">Bigger</option>
+            <option value="Biggest">Biggest</option>
+            <option value="Biggerest">Biggerest</option>
+            </select>
+    </form>
+
+<h4>Toppings:</h4>
+
+<form action="#">
+    <input type="checkbox" name="pizzaEditor" value="Pineapples">Pineapples
+<input type="checkbox" name="pizzaEditor" value="Banana">Banana
+<input type="checkbox" name="pizzaEditor" value="Seaweed">Seaweed
+<input type="checkbox" name="pizzaEditor" value="Cinnamon">Cinnamon
+<input type="checkbox" name="pizzaEditor" value="Carrot Shavings">Carrot Shavings
+<input type="checkbox" name="pizzaEditor" value="chocolate">Chocolate
+<input type="checkbox" name="pizzaEditor" value="Tofu">Tofu
+<input type="checkbox" name="pizzaEditor" value="Horse radish">Horse Radish
+<input type="checkbox" name="pizzaEditor" value="Vinegar">Vinegar
+<input type="checkbox" name="pizzaEditor" value="Rice">Rice
+<input type="checkbox" name="pizzaEditor" value="Cooking Oil">Cooking Oil
+</form>
+
+<h4>Crust:</h4>
+<input type="radio" name="pizzaEditor" value="Hand Tossed">Hand Tossed
+<input type="radio" name="pizzaEditor" value="Thin Crust">Thin Crust
+<input type="radio" name="pizzaEditor" value="Poland Style">Poland Style
+<input type="radio" name="pizzaEditor" value="Floor Made">Floor Made
+<input type="radio" name="pizzaEditor" value="Naranja">Naranja
+
+<h4>Sauce:</h4>
+
+<input type="radio" name="pizzaEditor" value="Marinara">Marinara
+<input type="radio" name="pizzaEditor" value="Olive Oil">Olive Oil
+<input type="radio" name="pizzaEditor" value="Pasta Sauce">Pasta Sauce
+<input type="radio" name="pizzaEditor" value="Ketchup">Ketchup
+<input type="radio" name="pizzaEditor" value="No Sauce">No Sauce
+<h1 id="Order"></h1>
+
+<h2>Feedback:</h2>
+<p>Let us know how we did pls thank u</p>
+<textarea name="comments" id="feedback" cols="30" rows="10" placeholder="Only accepting feedback with more than 2 letters" maxlength="2"></textarea>
+
+<h1>Thank You</h1>
+<p>Thanks for choosing David's Pizzeria. We are currently celebrating our first annual monthly day of day. Have a great day</p>
+</body>
+
+</html>

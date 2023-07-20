@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+}
+
+.img {
+    display:block;
+    margin: 0 auto;
+    width: 100px;
+    /* height: 45px; */
+}
+
+h1 {
+
+    color: yellow;
+    font-style: italic;
+    text-align: center;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer {
+    color: white;
+}
+
+h2{
+    color: white;
+    text-decoration: underline;
+}
+

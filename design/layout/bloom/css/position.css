@@ -1,0 +1,179 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-bubbles {
+    width: 1.125em;
+  }
+
+  .inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: #26292e;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    margin: 0;
+    font-family: 'Butterfly Kids', cursive;
+    color: white;
+  }
+
+    .top-icons {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .top-icons li {
+      text-decoration: none;
+      font-style: none;
+      padding: 10px;
+      border: solid 1px white;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .welcome {
+      position: relative;
+      background-color: #e7718b;
+      margin: 0;
+      padding: 0;
+      height: 300px;
+      font-family: 'Butterfly Kids', cursive;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .leblop {
+      position: absolute;
+      right: 0;
+      top: 50px;
+    }
+
+    .welcome-paragraph {
+      width: calc(100% / 3*2);
+    }
+
+    .left {
+      width: calc(100% / 3*2);
+      margin: 0;
+      padding: 0;
+    }
+
+    .btn1, .btn2 {
+      background-color: #26292e;
+      border: solid 10px #26292e;
+      border-radius: 10%;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .middle {
+      background-color: #f4f4f6;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .last-section {
+      position: relative;
+    }
+
+    .last-section1 {
+      width: 100%;
+    }
+    
+    .last-section2 {
+      width: 30%;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .last-icons {
+      width: 500px;
+    }
+
+    .icon-search1, .icon-search2, .icon-search3, .icon-search4 {
+      margin: 40px;
+      padding: 40px;
+      border: solid 10px black;
+      background-color: gray;
+    }
+
+    .m1, .m2, .m3 {
+      display: inline-block;
+      width: 25%;
+    }
+
+    .divided {
+      position: relative;
+      display: inline-block;
+      font-family: 'Butterfly Kids', cursive;
+      font-family: 'Roboto', sans-serif
+    }
+
+    .m1 {
+      position: absolute;
+      left: 0;
+    }
+
+    .m2 {
+      position: relative;
+      left: 37%;
+    }
+
+    .m3 {
+      position: absolute;
+      right: 0;
+    }
+
+
+
+    .KevinBarone {
+      position: relative;
+    }
+
+    footer {
+      position: relative;
+      background-color: #26292e;
+    }
+
+    .footer-icons li {
+      text-decoration: none;
+      font-style: none;
+      display: inline-block;
+      padding: 10px;
+      border: solid 1px white;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      right: 0
+    }
+
+    .Copyright {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    
+

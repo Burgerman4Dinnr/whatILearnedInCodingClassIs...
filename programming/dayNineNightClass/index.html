@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Movie Cards</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 id="logo" class="text-center"></h1>
+    </header>
+    <main class="main">
+        <section class="container form-section">
+            <div class="row">
+                <form action="#" class="form-movie-form">
+                    <!--title, description, image, director, genre, year, duration-->
+                    <div class="mb-3-row">
+                        <label for="movieTitle" class="form-label">Enter Movie Title:</label>
+                        <input type="text" name="movieTitle" class="form-control" id="movieTitle" value="" placeholder="Title">
+                    </div>
+                    <div class="mb-3-row">
+                        <div class="col">
+                            <label for="releaseYear">Year Released</label>
+                            <input type="number" name="releaseYear" class="form-control" id="releaseYear" value="" placeholder="YYYY" min="1900" max="2035">
+                        </div>
+                        <div class="col">
+                            <label for="movieDuration">Duration</label>
+                            <input type="number" name="movieDuration" class="form-control" id="movieDuration" value="" placeholder="Duration in Minutes" min="10" max="1000">
+                        </div>
+                    </div>
+                    <div class="mb-3-row">
+                        <div class="input-group=prepend">
+                            <label for="movieGenre" class="form-label">Select Genre</label>
+                        </div>
+                        <select name="movieGenre" id="movieGenre">
+                            <option value="">Choose...</option>
+                            <option value="comedy">Comedy</option>
+                            <option value="horror">Horror</option>
+                            <option value="rom com">rom com</option>
+                            <option value="action">Action</option>
+                            <option value="drama">Drama</option>
+                            <option value="suspense">Suspense</option>
+                            <option value="kids movies">Kids Movies</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="movieDirector" class="form-label">Movie Director</label>
+                        <input type="text" name="movieDirector" class="form-control" id="movieDirector" value="" placeholder="Director">
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea name="movieDescription" id="movieDescription" cols="30" rows="10" placeholder="Description" value=""></textarea>
+                    </div>
+                    <div class="mb-4 row input-group">
+                        <label for="movieImage" class="form-label">Poster</label>
+                        <input type="url" class="form-control" name="movieImage" id="movieImage" placeholder="Enter Movie Image URL" value="">
+                    </div>
+                    <div class="mb-3 row">
+                        <div class="col">
+                            <input type="submit" id="submitBtn" class="btn btn-danger" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="container">
+            <h2>movies</h2>
+            <div class="row" id="movieCards">
+                <!-- <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 id="title">TITLE</h3>
+                        </div>
+                        <img src="https://via.placeholder.com/50x50" alt="placeholder image" class="img-fluid movie-img">
+                        <div class="card-body">
+                            <p class="card-text" id="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellendus exercitationem rem quod maxime voluptas tempora at id neque. Sint!
+                            </p>
+                            <p class="card-text" id="Director">Director:</p>
+                            <p class="card-text" id="genre">Genre:</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text" id="year">YEAR</p>
+                            <p class="card-text" id="movieduration">minutes</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

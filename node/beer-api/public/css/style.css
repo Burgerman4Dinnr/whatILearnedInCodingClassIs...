@@ -1,0 +1,55 @@
+/*
+    Color Palette
+    caf0f8
+    fee05c
+    0e337c
+*/
+
+:root {
+    --primColor: #0e337c;
+    --secColor: #fee05c;
+    --tertColor: #caf0f8;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: var();
+    border-bottom: 2px solid black;
+}
+
+.header-h1 {
+    color: var(--primColor);
+    text-align: center;
+}
+
+.nav-link {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.section-stout {
+    margin: 20px 0;
+    padding: 20px 0;
+    border: 2px solid;
+    border-image: linear-gradient(to left, #1e90ff, #dc143c) 1;
+    border-radius: 5px;
+}
+
+body {
+    background: linear-gradient(to right, #000033  , #FFFFE0 );
+  }
+
+.list-group-item {
+    background: linear-gradient(to left, #FF0000, #CC5500);
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    border-top: 2px solid black;;
+}
+
+.green {
+    color: green;
+}

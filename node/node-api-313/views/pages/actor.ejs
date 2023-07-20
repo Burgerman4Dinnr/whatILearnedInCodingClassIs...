@@ -1,0 +1,21 @@
+<%- include('../partials/header'); %>
+
+<main class="main main-actor">
+    <a href="/actor/form">add an actor</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+            <% data.forEach(item => { %>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <img src="https://via.placeholder.com/250x250" alt="<%= item.fName %> <%= item.lName %>"class="img-fluid figure-img actor-img rounded">
+                            <figcaption class="figure-caption"><%= item.fName %><%= item.lName %></figcaption>
+                    </figure>
+                </div>
+          <%  }) %>
+        </div>
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>

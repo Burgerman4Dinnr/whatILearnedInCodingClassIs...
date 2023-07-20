@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
+    border-bottom: solid 1px black;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.hero-img {
+    /* width: 600px; */
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* align-items: center; */
+    width: 80%;
+}
+
+section {
+    padding: 20px;
+}
+
+.header-text {
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    margin-top: 0;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.cardImg {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* .cardText {
+
+} */
+
+.star {
+    height: 14px;
+}

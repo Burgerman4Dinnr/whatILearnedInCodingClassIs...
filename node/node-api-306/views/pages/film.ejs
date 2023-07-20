@@ -1,0 +1,24 @@
+<%- include('../partials/header'); %>
+
+<main class="main main-film">
+    <div class="container">
+        <h2 class="header-h2"><%= name %></h2>
+
+        <section class="section section-film">
+            <div class="row">
+                <% data.forEach(item => { %>
+                    <div class="col-md-3">
+                        <h3 class="film-title">
+                            <a href="/film/<%= item.film_id  %>">
+                                <%= item.title %>
+                            </a> | <%= item.rating %>
+                        </h3>
+                        <img src="https://via.placeholder.com/250x350" alt="">
+                    </div>
+               <%  })  %>
+            </div>
+        </section>
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>

@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+
+<main class="main-movie">
+    <div class="container">
+        <h2 class="header-h2"><%= name %></h2>
+        <section class="section section-movie">
+            <div class="row">
+                <% data.forEach(item => { %>
+                    <div class="col-md-4">
+                        <figure class="figure figure-movie">
+                            <img src="<%= item.image %>" alt="<%= item.title %>" class="img-fluid figure-img v-100">
+                            <figcaption class="figcaption">
+                                <a href="/movie/<%= item.movie_id %>"><%= item.title %></a> | <% item.year %> | <%= item.rating %>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+    </div>
+</main>

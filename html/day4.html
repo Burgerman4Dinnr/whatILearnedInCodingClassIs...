@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+</head>
+<body>
+    <!-- Forms allow you to get info from the server -->
+
+    <h1>Forms</h1>
+    <form action="#">
+        <!-- placeholder is for the screen reader. value -->
+        <input type="text" placeholder="first name" value="" required>
+        <input type="text" placeholder="last name" value="">
+        <input type="password" placeholder="password" value="">
+        <input type="email" placeholder="email" value="">
+        <input type="submit" value="confirm">
+    </form>
+    <form action="#">
+        <label for="firtName">First Name
+            <input type="text" placeholder="First Name" value="" name="firstName">
+        </label>
+        <label for="lastName">Last Name
+            <input type="text" placeholder="Last Name" value="" name="lastName">
+        </label>
+        <label for="dob">Date of Birth
+            <input type="date" placeholder="date" value="" name="dob">
+        </label>
+        <label for="qty">Quantity
+            <input type="number" placeholder="qty" value="" name="firstName">
+        </label>
+        <input type="submit" placeholder="Confirm" value="Free Money">
+    </form>
+
+    <form action="#">
+
+    <label for="hairColor">
+        <input type="radio" name="hairColor" value="Brown"> Brown
+        <input type="radio" name="hairColor" value="Brown"> Blonde
+        <input type="radio" name="hairColor" value="Brown"> Black
+        <input type="radio" name="hairColor" value="Brown"> Gray
+        <input type="radio" name="hairColor" value="Red"> Ginger
+    </label>
+    </form>
+
+    <label for="format">
+        <input type="checkbox" name="format" value="casette">Cassette
+        <input type="checkbox" name="format" value="cd"> CD
+        <input type="checkbox" name="format" value="Vinyl"> Vinyl
+    </label>
+
+    <form action="#">
+        <select name="colors" id="colors">
+            <option value="">Select Color</option>
+            <option value="dodger blue">blue</option>
+            <option value="red">red</option>
+            <option value="black">black</option>
+            <option value="white">white</option>
+            <input type="Submit" value="submit">
+        </select>
+        <textarea name="comments" id="userComments" cols="30" rows="10" placeholder="Plase Share Your thoughts..." maxlength=""></textarea>
+    </form>
+</body>
+</html>

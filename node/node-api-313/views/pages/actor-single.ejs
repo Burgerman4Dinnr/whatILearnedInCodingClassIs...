@@ -1,0 +1,15 @@
+<%- include('../partials/header'); %>
+
+<main class="main main-actor-single">
+    <div class="container">
+        <figure class="figure">
+            <img src="https://via.placeholder.com/550x750" alt="placeholder img" class="img-fluid">
+            <figcaption class="figure-caption">
+                <a href="/actor/<%= item.actor_id %>">
+                    <%= data.lName %><%= data.fName%></figcaption>
+                </a>
+        </figure>
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>
